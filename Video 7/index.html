@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video 7</title>
+</head>
+
+<body>
+    <!--This is syntax of forms-->
+    <form></form>
+
+    <!--This is syntax of forms with Method and Action-->
+    <form action="" method="get"></form>
+    <form action="" method="post"></form>
+
+    <!--This is an Form with form elements -->
+    <form action="" method="post">
+        <input type="text" name="username" placeholder="Username" /><br />
+        <input type="password" name="password" placeholder="Password" /><br />
+        <textarea name="message" rows="4" cols="50" placeholder="Enter Your Text"></textarea><br />
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <input type="checkbox" name="subscribe" value="yes" /> Subscribe<br />
+        <select name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="India">India</option>
+        </select><br />
+        <input type="file" name="fileUpload" /><br />
+        <input type="hidden" name="token" value="abc123" />
+        <input type="number" name="quantity" min="1" max="100" /><br />
+        <input type="email" name="email" placeholder="example@example.com" /><br />
+        <input type="url" name="website" placeholder="https://www.example.com" /><br />
+        <input type="date" name="birthdate" /><br />
+        <input type="submit" value="Submit" /><br />
+        <input type="reset" value="Reset" /><br />
+    </form>
+    <!--This is Form Layout-->
+    <form>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <label for="Username">Username:</label>
+            <input type="text" name="" id="">
+            <input type="submit" value="Submit" /><br />
+        </fieldset>
+    </form>
+
+    <!--This is Form Validation with inbuilt Attributes-->
+    <form><input type="text" name="zipcode" pattern="\d{5}" title="Five-digit ZIP code">
+        <input type="number" name="quantity" min="1" max="100">
+    </form>
+
+    <!--This is Form Validation using JavaScript-->
+    <script>
+        function validateForm() {
+            // Custom validation logic
+            return true; // or false to prevent form submission
+        }
+    </script>
+    <form onsubmit="return validateForm()">
+        <!-- Form elements go here -->
+    </form>
+
+</body>
+
+</html>
