@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video 8</title>
+    <style>
+      /* This is styling for table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      /* Responsive styling for small screens */
+      @media (max-width: 600px) {
+        th,
+        td {
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        th,
+        td:nth-child(1) {
+          border-top: 1px solid #ddd;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Here starts your table -->
+    <table>
+      <!-- Table tag for table-->
+      <caption>
+        <!-- Caption tag for table heading-->
+        My Demo Table
+      </caption>
+      <thead>
+        <!-- Table head <thead> tag for table headings-->
+        <tr>
+          <!-- Table Row tag for table Rows-->
+          <th scope="col">Header 1</th>
+          <!-- Table head tag <th> for table headings-->
+          <th>Header 2</th>
+          <th>Header 3</th>
+          <th>Header 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table Body tag for tables main content-->
+        <tr>
+          <td colspan="1">Row 1, Cell 1</td>
+          <td rowspan="1">Row 1, Cell 2</td>
+          <!-- Table Data tag for table data-->
+          <td>Row 1, Cell 3</td>
+          <td>Row 1, Cell 4</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+          <td>Row 2, Cell 4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
