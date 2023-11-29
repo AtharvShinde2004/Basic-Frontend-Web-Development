@@ -1,0 +1,18 @@
+/* This is your Extrenal CSS */
+body {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    
+
+/* This is Class Selector */
+.Para {
+    color: blue;
+}
+
+/* This is ID Selector */
+#Text {
+    font-size: 50px;
+    color: rgb(0, 255, 26);
+}
