@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    /* display: flex; */
+}
+
+ul {
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
