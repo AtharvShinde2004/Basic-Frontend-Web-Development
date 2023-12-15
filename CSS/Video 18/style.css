@@ -1,0 +1,13 @@
+.animate {
+    width: 10em;
+    height: 10em;
+    background-color: black;
+    animation: slide-in 2s ease-in-out 2s infinite alternate;
+}
+
+@keyframes slide-in {
+    0% { transform: translateX(-100%); }
+    50% { transform: scale(2);}
+    80% { transform: scale(4);}
+    100% { transform: translateX(0); }
+    }
